@@ -677,6 +677,10 @@ video {
   z-index: 40;
 }
 
+.z-\[99\] {
+  z-index: 99;
+}
+
 .float-start {
   float: inline-start;
 }
@@ -742,6 +746,10 @@ video {
 
 .mb-2 {
   margin-bottom: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .mb-6 {
@@ -881,6 +889,10 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.max-h-\[400px\] {
+  max-height: 400px;
 }
 
 .w-28 {
@@ -1441,10 +1453,6 @@ video {
   gap: 0.5rem;
 }
 
-.gap-4 {
-  gap: 1rem;
-}
-
 .gap-7 {
   gap: 1.75rem;
 }
@@ -1903,6 +1911,11 @@ video {
 
 .border-none {
   border-style: none;
+}
+
+.border-red-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(239 68 68 / var(--tw-border-opacity));
 }
 
 .bg-\[rgb\(255\2c 0\2c 0\)\] {
